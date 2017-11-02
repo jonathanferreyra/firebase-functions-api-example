@@ -1,0 +1,27 @@
+{
+  "name": "firebase-functions-api-example",
+  "description": "An API example using Firebase Cloud Functions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanferreyra/firebase-functions-api-example"
+  },
+  "author": {
+    "email": "jalejandroferreyra@gmail.com",
+    "name": "Jonathan Ferreyra",
+    "url": "https://github.com/jonathanferreyra"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "deploy": "firebase deploy --only functions"
+  },
+  "dependencies": {
+    "firebase-admin": "~5.4.0",
+    "firebase-functions": "^0.7.0",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "sequelize": "^3.23.6",
+    "sqlite3": "^3.0.8"
+  },
+  "private": true
+}
