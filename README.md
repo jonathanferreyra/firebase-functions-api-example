@@ -1,8 +1,11 @@
 # Firebase Functions API Example
 
-This repository demonstrates the usage of [Firebase Cloud Functions](https://firebase.google.com/docs/functions/) in a simple [Express](https://expressjs.com) API with [Sequelize](docs.sequelizejs.com) ORM to manage the data.
+This repository demonstrates the usage of [Firebase Cloud Functions](https://firebase.google.com/docs/functions/) in a simple [Express](https://expressjs.com) API with [Sequelize](http://docs.sequelizejs.com/) ORM to manage the data.
 The implemented logic is a simple list of users.
 
+## Demo
+
+Check live example [here](https://goo.gl/b2fHJy)
 
 ## Starting App
 
@@ -45,9 +48,6 @@ Users created with the command: `node_modules/.bin/sequelize model:create --name
 
 Because Firebase Cloud Functions does not allow calls to external sources, a SQLite database is used to persist the data internally. Sequelize is used to manage data due to the flexible api it offers.
 
-## Demo
-
-Check live example [here](https://goo.gl/b2fHJy)
 
 ## Deploy to Firebase
 
